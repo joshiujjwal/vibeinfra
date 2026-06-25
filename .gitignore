@@ -1,0 +1,35 @@
+# Binaries
+/bin/
+*.exe
+*.out
+vibe
+
+# Go
+*.test
+*.prof
+/vendor/
+go.work
+go.work.sum
+
+# Env / secrets — never commit
+.env
+.env.*
+*.local
+credentials.json
+*.pem
+*.key
+
+# Profiles / local config (may contain tokens)
+.vibe/
+~/.vibe/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs / coverage
+*.log
+coverage.out
+coverage.html
